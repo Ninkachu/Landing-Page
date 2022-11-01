@@ -1,0 +1,158 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 110px;
+    background-color: #0F172A;
+}
+
+nav{
+    display: flex;
+    gap:60px;
+}
+.nav a{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #F8FAFC;
+  text-decoration: none;
+}
+
+.main{
+    padding:150px 300px;
+    background-color: #0F172A;
+}
+
+.article{
+   border-radius: 20px;
+   background: rgba(30, 41, 59, 0.4);
+   padding:35px 8px;
+   display:flex;
+   gap:45px;
+   align-items: flex;
+   align-items: center;
+   width: 1150px;
+   height: 300px;
+}
+
+ 
+.project{
+    padding-bottom: 80px;
+}
+
+.section{
+    display:flex;
+    flex-direction:column;
+    gap:40px;
+}
+
+.article-info h3{
+    width: 113px;
+    height: 35px;
+    font-weight: 500;
+    font-size: 30px;
+    color: #F8FAFC;
+    margin-bottom:25px;
+    
+}
+
+.article-info p{
+    font-size: 20px;
+    line-height: 23px;
+    color: #CBD5E1;
+    margin-bottom:14px;
+}
+
+.image-one{
+    padding-left:10px;
+    padding-right:45px;
+}
+
+.image-two{
+    padding-left:15px;
+    padding-right:80px;
+}
+
+
+.image-three{
+    padding-left:30px;
+    padding-right:105px;
+}
+
+.heading{
+    padding-top:95px;
+    padding-bottom: 80px;
+}
+
+.latest-post{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+
+}
+.post{
+    background: #1E293B;
+    border-radius: 20px;
+    display:flex;
+    flex-direction:column;
+    width: 370px;
+    height: 520px;
+}
+
+.post-info h3{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    padding-top: 20px;
+    color: #F8FAFC;
+    padding-bottom:10px;
+}
+
+
+.post-info p{
+    Width:341px;
+    color: #F8FAFC;
+    text-align: center;
+    font-size:20px;
+    line-height: 23px;
+    padding:15px;
+    
+}
+
+.post-info span{
+    color:#9CA3AF;
+    font-size:20px;
+    line-height: 23px;
+    display:flex;
+    justify-content: center;    
+}
+.post-photo{
+   border-top-left-radius: 20px;
+   border-top-right-radius:20px;
+}
+
+footer{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px; 
+  color: #CBD5E1;
+  padding: 60px 110px;
+  border: 1px solid #CBD5E1;
+  background-color: #0F172A;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social{
+    display: flex;
+    gap:25px;
+}
